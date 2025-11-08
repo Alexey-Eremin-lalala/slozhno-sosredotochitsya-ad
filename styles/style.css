@@ -5,6 +5,8 @@
   background-image: var(--backgroung-image);
   background-position: center;
   background-size: cover;
+  font-family: var(--font, monospace);
+  margin: 0 auto;
 }
 .header {
   min-block-size: 100vh;
@@ -41,6 +43,21 @@
   cursor: pointer;
   border: 1px solid rgba(255, 0, 112, 0.40);
 }
+
+.rec-doing {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  top: 0;
+  right: 0;
+  padding-right: 8px;
+  color: var(--button-color);
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
 
 
 
