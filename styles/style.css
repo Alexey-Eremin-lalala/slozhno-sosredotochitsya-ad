@@ -5,11 +5,13 @@
   background-image: var(--backgroung-image);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   font-family: var(--font, monospace);
   font-size: var(--font-size);
   font-weight:400px;
   margin: 0 auto;
   line-height:23.4px;
+  
 }
 .header {
   min-block-size: 100vh;
@@ -85,7 +87,7 @@
   line-height: 83%;
   
 }
-.dec__text{
+.title-decor{
   font-weight: 700;
   background-color: var(--button-color);
   line-height:23.4px;
@@ -115,8 +117,53 @@
   block-size: 25px;
   margin: 20px;
 }
+
+.quest-title{
+  color: var(--button-color);
+  font-weight: 700;
+  line-height: 23.4px;
+  font-size: var(--font-size);
+}
+.quest__link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.quest-descript{
+  font-size: var(--font-size);
+  color:var(--text-color);
+
+}
+
 .first__quest {
-  
+  display:grid;
+  padding: 0 20px;
+  padding-block-start: 60px;
+  grid-template-columns: 34% 66%;
+}
+
+.first__quest-ans{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contain__question {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-block-start: 20px;
+}
+
+.second__quest {
+  padding-block-start: 80px;
+  margin: 0 20px;
+}
+.quest-title-second{
+  max-inline-size:315px;
+}
+.title-decor-two {
+  margin-block-end: 10px;
 }
 
 
