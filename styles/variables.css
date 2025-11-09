@@ -1,6 +1,7 @@
 :root {
   --backgroung-image: url(../images/cover-image-dark.png);
   --button-color:#ff0070;
+  --currently-color: #ff0070;
   --font: 'IBM Plex mono'; 
   --font-size: 18px;
   --title-color: #DB00FF;
