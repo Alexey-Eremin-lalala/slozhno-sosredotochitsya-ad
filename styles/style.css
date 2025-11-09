@@ -237,10 +237,10 @@
 
 .footer {
   min-block-size: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
   position: relative;
+  align-items: center;
+  justify-items: center;
 }
 
 .footer__title {
